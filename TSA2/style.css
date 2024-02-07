@@ -1,0 +1,69 @@
+
+#container {
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: left;
+    align-items: left;
+}
+
+.button {
+    background-color: #999;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    height: 150px;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    top: -150px; /* Initial position */
+}
+
+.visibleBox {
+    top: 200px;
+    opacity: 1;
+}
+
+#mon-box{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+#tue-box{
+    background-color: red;
+    border-color: red;
+}
+
+#wed-box{
+    background-color: cyan;
+    border-color: cyan;
+}
+
+#thu-box{
+    background-color: green;
+    border-color: green;
+}
+
+#fri-box{
+    background-color: orange;
+    border-color: orange;
+}
+
+#sat-box{
+    background-color: purple;
+    border-color: purple;
+}
+
+#sun-box{
+    background-color: pink;
+    border-color: pink;
+}

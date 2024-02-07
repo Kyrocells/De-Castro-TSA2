@@ -25,7 +25,7 @@
     height: 150px;
     opacity: 0;
     transition: top 0.5s, opacity 0.5s;
-    top: -150px; /* Initial position */
+    top: -150px;
 }
 
 .visibleBox {
